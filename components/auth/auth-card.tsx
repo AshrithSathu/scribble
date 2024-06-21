@@ -24,7 +24,7 @@ export const AuthCard = ({
   showSocials,
 }: AuthCardProps) => {
   return (
-    <Card>
+    <Card className=" ">
       <CardHeader>
         <CardTitle>{cardTitle}</CardTitle>
       </CardHeader>
